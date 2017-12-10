@@ -1,0 +1,20 @@
+{
+  "name": "classification",
+  "version": "1.0.0",
+  "description": "A classifier that detects admissibility of student based on test scores",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahmeen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-fileupload": "^0.3.0",
+    "fs": "0.0.1-security",
+    "python-shell": "^0.4.0",
+    "sys": "0.0.1"
+  }
+}

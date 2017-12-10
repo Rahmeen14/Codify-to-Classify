@@ -1,0 +1,19 @@
+<div class="container">
+<% var count = 0; %>
+<%for(var i=0;i<obj.length; i++){%>
+<%if(obj[i].prediction == 1){%>
+ 	<%count++; }}%>
+ <%if(count>= 4){%>
+ <% count= 1;} else {count =0} ;%>
+ <h1>The majority of our 7 classifiers reported admissibility status of the student as <%=count%></h1>
+ <h2>The majority comprises :- <h2>
+ <%for(var i=0;i<obj.length; i++){%>
+ 	<%if(obj[i].prediction == count){%>
+ 		<div>
+ 			<h3>Name of Classification Algorithm: <%=obj[i].name%></h3>
+ 			<h4>Accuracy: <%= obj[i].accuracy%></h4>
+ 			<img style="height: 300px; width: 300px; " src="<%=obj[i].plot%>">
+ 		</div>
+ <%}}%>
+
+</div>
