@@ -2,8 +2,8 @@
 A simple nodejs app that uses various Classification Algorithms in Python to predict the admission status to a university based on 2 test scores.
 
 It works upon past data from the university in a .csv format. The contents of the file are:
--Test #1 Score
--Test #2 Score
+-Test 1 Score
+-Test 2 Score
 -Admission Status, 0 or 1 for a negative and positive result respectively
 A sample .csv file has been provided in data folder for your kind perusal.
 
