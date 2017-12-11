@@ -12,14 +12,16 @@ A sample .csv file has been provided in data folder for your kind perusal.
 
 To achieve it, it uses 7 different [Classification Algorithms](http://dataaspirant.com/2016/09/24/classification-clustering-alogrithms/) and makes the final verdict by the results of a simple majority of 4:
 
-These 7 algorithms are :-
--[LogisticRegression](https://en.wikipedia.org/wiki/Logistic_regression)
--[KNeighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
--[SVC(linear)](https://en.wikipedia.org/wiki/Support_vector_machine)
--[SVC(rbf)](https://en.wikipedia.org/wiki/Support_vector_machine)
--[Gaussian](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
--[Decision Tree](http://www.saedsayad.com/decision_tree.htm) 
--[Random Forest](https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm)
+These 7 algorithms are :
+
+
+1. [LogisticRegression](https://en.wikipedia.org/wiki/Logistic_regression)
+2. [KNeighbors](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+3. [SVC(linear)](https://en.wikipedia.org/wiki/Support_vector_machine)
+4. [SVC(rbf)](https://en.wikipedia.org/wiki/Support_vector_machine)
+5. [Gaussian](https://en.wikipedia.org/wiki/Naive_Bayes_classifier)
+6. [Decision Tree](http://www.saedsayad.com/decision_tree.htm) 
+7. [Random Forest](https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm)
 
 ## Installation requirements
 ```
