@@ -23,7 +23,7 @@ These 7 algorithms are :
 6. [Decision Tree](http://www.saedsayad.com/decision_tree.htm) 
 7. [Random Forest](https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm)
 
-## Installation requirements
+## Installation requirements :computer:
 ```
 Node
 Python 3.6 or higher
