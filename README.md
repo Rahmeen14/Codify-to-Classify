@@ -34,6 +34,7 @@ Python 3.6 or higher
 clone this repository
 cd into it
 Change the path to Python as is in your machine
+pip install -r requirements.txt
 npm install
 node app.js
 ```
